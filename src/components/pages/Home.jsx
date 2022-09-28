@@ -4,8 +4,9 @@ import Button from '../layouts/partials/Button'
 import Navbar from '../layouts/partials/Navbar'
 import Slider from "react-slick";
 import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
-import {AiOutlineLike} from 'react-icons/ai'
-import {MdOutlineModeComment, MdOutlineShare} from 'react-icons/md'
+import { AiOutlineLike } from 'react-icons/ai'
+import { MdOutlineModeComment, MdOutlineShare } from 'react-icons/md'
+import Footer from '../layouts/partials/Footer';
 
 const Home = () => {
     const [config, setConfig] = useState({
@@ -312,34 +313,34 @@ const Home = () => {
                                 <img src="../../../images/img@instag-1.png" alt="" className="img-fluid w-100 rounded-3" />
                                 <div className="py-3">
                                     <p>Mauris lectus tempor.</p>
-                                    <h4 className="font-600 mb-3 fs-22" style={{width: '289px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                                    <h4 className="font-600 mb-3 fs-22" style={{ width: '289px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                     <p className='fs-14'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
                                     <div className="d-flex justify-content-between">
                                         <p className='fs-14'>2, Sept 2020</p>
                                         <div className="">
                                             <AiOutlineLike className='text-purple' />
-                                            <MdOutlineModeComment  className='text-purple mx-2'/>
-                                            <MdOutlineShare  className='text-purple'/>
+                                            <MdOutlineModeComment className='text-purple mx-2' />
+                                            <MdOutlineShare className='text-purple' />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-4">
-                            
+
                             <div className="mx-0 mx-md-2 my-md-0 my-2">
                                 <img src="../../../images/img@instag-2.png" alt="" className="img-fluid w-100 rounded-3" />
                                 <div className="py-3">
-                                    
+
                                     <p>Mauris lectus tempor.</p>
-                                    <h4 className="font-600 mb-3 fs-22" style={{width: '289px'}}>Egestas aliquet hendrerit. </h4>
+                                    <h4 className="font-600 mb-3 fs-22" style={{ width: '289px' }}>Egestas aliquet hendrerit. </h4>
                                     <p className='fs-14'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
                                     <div className="d-flex justify-content-between">
                                         <p className='fs-14'>2, Sept 2020</p>
                                         <div className="">
                                             <AiOutlineLike className='text-purple' />
-                                            <MdOutlineModeComment  className='text-purple mx-2'/>
-                                            <MdOutlineShare  className='text-purple'/>
+                                            <MdOutlineModeComment className='text-purple mx-2' />
+                                            <MdOutlineShare className='text-purple' />
                                         </div>
                                     </div>
                                 </div>
@@ -350,14 +351,14 @@ const Home = () => {
                                 <img src="../../../images/img@instag-3.png" alt="" className="img-fluid w-100 rounded-3" />
                                 <div className="py-3">
                                     <p>Mauris lectus tempor.</p>
-                                    <h4 className="font-600 mb-3 fs-22" style={{width: '289px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h4>
+                                    <h4 className="font-600 mb-3 fs-22" style={{ width: '289px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h4>
                                     <p className='fs-14'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
                                     <div className="d-flex justify-content-between">
                                         <p className='fs-14'>2, Sept 2020</p>
                                         <div className="">
                                             <AiOutlineLike className='text-purple' />
-                                            <MdOutlineModeComment  className='text-purple mx-2'/>
-                                            <MdOutlineShare  className='text-purple'/>
+                                            <MdOutlineModeComment className='text-purple mx-2' />
+                                            <MdOutlineShare className='text-purple' />
                                         </div>
                                     </div>
                                 </div>
@@ -366,6 +367,76 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="section-box fqa" style={{backgroundColor: '#F9FAFB'}}>
+                <div className="container">
+                    <h2 className='font-600 pb-5'>Frequently asked questions</h2>
+                    <div className="row pt-3" style={{borderTop: '1px solid #E5E7EB'}}>
+                        <div className="col-12 col-md-6">
+                            <div className="">
+                                <h4 className="font-500 fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="mx-2 mb-3">
+                                <p className="font-400 fs-16" style={{lineHeight: 1.6}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod neque, mattis dignissim turpis duis et. Tellus sit pretium enim dui mauris. Id dui fringilla at massa lectus.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="">
+                                <h4 className="font-500 fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="mx-2 mb-3">
+                                <p className="font-400 fs-16" style={{lineHeight: 1.6}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod neque, mattis dignissim turpis duis et. Tellus sit pretium enim dui mauris. Id dui fringilla at massa lectus.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="">
+                                <h4 className="font-500 fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="mx-2 mb-3">
+                                <p className="font-400 fs-16" style={{lineHeight: 1.6}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod neque, mattis dignissim turpis duis et. Tellus sit pretium enim dui mauris. Id dui fringilla at massa lectus.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="">
+                                <h4 className="font-500 fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="mx-2 mb-3">
+                                <p className="font-400 fs-16" style={{lineHeight: 1.6}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod neque, mattis dignissim turpis duis et. Tellus sit pretium enim dui mauris. Id dui fringilla at massa lectus.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="">
+                                <h4 className="font-500 fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="mx-2 mb-3">
+                                <p className="font-400 fs-16" style={{lineHeight: 1.6}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod neque, mattis dignissim turpis duis et. Tellus sit pretium enim dui mauris. Id dui fringilla at massa lectus.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="">
+                                <h4 className="font-500 fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="mx-2 mb-3">
+                                <p className="font-400 fs-16" style={{lineHeight: 1.6}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod neque, mattis dignissim turpis duis et. Tellus sit pretium enim dui mauris. Id dui fringilla at massa lectus.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <Footer />
         </>
     )
 }

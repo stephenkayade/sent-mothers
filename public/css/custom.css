@@ -181,3 +181,15 @@ main.main .container .main-img {
     background: url('../images/img@newsletter.png')no-repeat center center/cover;
     height: 100%;
 }
+
+.fqa p {
+    color: #6B7280;
+}
+
+.fqa h4 {
+    color: #111827
+}
+
+.under li {
+    color: #666666;
+}
