@@ -330,6 +330,7 @@ const Home = () => {
                             <div className="mx-0 mx-md-2 my-md-0 my-2">
                                 <img src="../../../images/img@instag-2.png" alt="" className="img-fluid w-100 rounded-3" />
                                 <div className="py-3">
+                                    
                                     <p>Mauris lectus tempor.</p>
                                     <h4 className="font-600 mb-3 fs-22" style={{width: '289px'}}>Egestas aliquet hendrerit. </h4>
                                     <p className='fs-14'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
