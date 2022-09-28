@@ -82,6 +82,13 @@ body {
     color: purple;
 }
 
+.pink-bg, .bg-pink:hover {
+   background-color:  #ECD7E8;
+}
+
+.bg-blue {
+    background-color: #13132F;
+}
 a{text-decoration: none;}
 
 nav {
@@ -100,7 +107,7 @@ nav ul li a {
 }
 
 .text-purple {
-    color: #A1398E;
+    color: #A1398E !important;
 }
 
 
@@ -108,6 +115,16 @@ nav ul li a {
 a.btn-purple {
     background-color: #A1398E !important;
     /* border-radius: 7px; */
+}
+
+.btn-carousel:hover {
+    background-color: #A1398E !important;
+    color: #fff;
+}
+
+.btn-carousel.carous {
+    background-color: #A1398E !important;
+    color: #fff;
 }
 
 main.main {
@@ -156,5 +173,11 @@ main.main .container .main-img {
 }
 
 .section-box {
-    padding: 3.5rem 0;
+    padding: 4rem 0;
+}
+
+/* newsletter section */
+#news {
+    background: url('../images/img@newsletter.png')no-repeat center center/cover;
+    height: 100%;
 }
