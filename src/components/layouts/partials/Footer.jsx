@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
 
-            <footer class="navbar navbar-expand-lg bg-light px-2 px-md-5">
+            <footer class="navbar navbar-expand-lg bg-white px-2 px-md-5">
                 <div class="container">
                     <Link className="navbar-brand" to="/"><img src="../../images/logo.png" alt="" height={60} width={80} /></Link>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -27,7 +27,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <footer class="navbar navbar-expand-lg bg-light px-2 px-md-5 under pb-2">
+            <footer class="navbar navbar-expand-lg bg-white px-2 px-md-5 under pb-2">
                 <div class="container">
                     <div className="d-flex justify-content-between w-100">
                         <div className="collapse navbar-collapse" id="navbarNav">
