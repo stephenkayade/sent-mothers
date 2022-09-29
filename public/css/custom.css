@@ -128,7 +128,7 @@ a.btn-purple {
 }
 
 main.main {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 main.main {
@@ -167,7 +167,7 @@ main.main .container a:hover {
     color: #A1398E;
 }
 
-main.main .container .main-img {
+ .main-img {
     display: flex;
     align-items: center;
 }
@@ -193,3 +193,22 @@ main.main .container .main-img {
 .under li {
     color: #666666;
 }
+
+.p-w {
+    max-width: '89%';
+    width: 100%;
+}
+
+ul.footer-nav-1, ul.footer-nav-2 {
+ list-style: none;
+ display: flex;
+}
+
+ul.footer-nav-1 li{
+ margin-left: .7rem;
+}
+
+ul.footer-nav-2 li{
+ margin-right: .7rem;
+}
+
