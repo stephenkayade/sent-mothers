@@ -13,9 +13,78 @@
     }
 
     main h1 {
-        font-size: 50px !important;
-    
+        font-size: 38px !important;
+
     }
+
+    .contact__us .container .contact .get-in__touch {
+        position: static;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .contact__us .container .contact .get-in__touch .contact__card {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact__us .container .contact .social__media {
+        height: 100%;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .social__media h2 {
+        font-size: 1.2rem;
+    }
+
+    /* .contact_container {
+        --bs-gutter-x: 1.5rem !important;
+        --bs-gutter-y: 0 !important;
+        width: 100% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+
+    } */
+
+    
+    .social_media_card {
+        display: flex;
+        columns: 100px;
+        column-gap:10px;
+        margin: auto;
+        /* padding: 2rem; */
+    }
+
+    .contact__us .container .contact {
+        height: 100%;
+        background-color: none;
+    }
+
+    .social__cards {
+        justify-content: flex-start;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .contact-icon {
+        font-size: 24px;
+    }
+
+    .contact__us .container .contact .get-in__touch h2 {
+        font-size: 20px;
+    }
+
+
+    .owl-theme .owl-nav {
+        position: static;
+    }
+
     .button-sm {
         font-size: 16px !important;
         padding: .7rem 1.2rem !important;
@@ -44,20 +113,208 @@
         width: 100%;
     }
 
-    .slider-div .slider-card{
+    .slider-div .slider-card {
         /* width: 850 !important; */
-        overflow: scroll ;
+        overflow: scroll;
     }
 
     .box-shadow {
-        box-shadow: 3px 3px 5px rgba(0,0,0,0.1), -3px -3px 5px rgba(0,0,0,0.1);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1), -3px -3px 5px rgba(0, 0, 0, 0.1);
     }
 
     ul {
         padding-left: 0rem !important;
     }
 
-    ul.footer-nav li a, footer p {
+    ul.footer-nav li a,
+    footer p {
         font-size: 13px !important;
     }
+
+    .custom-modal .dm--dbx {
+        display: none !important;
+    }
+
+    .custom-modal .modal-body>.d-flex {
+        display: unset !important;
+    }
+
+
+    .c-card-image {
+        min-height: 150px !important;
+        max-height: 150px !important;
+    }
+
+    .carousel-card.border-grey {
+        border: none !important;
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 576px) {
+
+
+    .modal-dialog {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .modal.slim .modal-dialog {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .modal.slim-md .modal-dialog {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .modal.slim-smd .modal-dialog {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .owl-theme .owl-nav {
+        position: static;
+    }
+
+
+
+    .modal.slim-lg .modal-dialog {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+
+    .modal.slim-mlg .modal-dialog {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .modal.slim-xlg .modal-dialog {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .modal.slim-xxlg .modal-dialog {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .modal-dialog .modal-content {
+        border-radius: 16px;
+    }
+
+    .custom-modal .modal-content {
+        border-radius: 16px;
+    }
+
+    .custom-modal .dm--dbx {
+        border-radius: 14px 0 0 14px;
+        width: 35%;
+        min-height: 300px;
+    }
+
+    .custom-modal.sm .dm--dbx,
+    .custom-modal .modal-content .modal-body {
+        min-height: 250px;
+    }
+
+    .custom-modal.md .dm--dbx {
+        min-height: 380px;
+    }
+
+    .custom-modal.lg .dm--dbx {
+        min-height: 450px;
+    }
+
+    .custom-modal.xl .dm--dbx {
+        min-height: 500px;
+    }
+
+    .custom-modal .modal-content .modal-body {
+        padding: 0 !important;
+    }
+
+    .custom-modal .dm--body {
+        padding: 1.7rem 2.5rem;
+        border-radius: 0 16px 16px 0;
+        width: 65%;
+        position: relative;
+    }
+
+    .custom-modal .dm--body .dm--ct {
+        min-height: 85%;
+        position: relative;
+    }
+
+    .custom-modal .dm--body .dm--ct .btn {
+        bottom: 0;
+    }
+
+    .custom-modal .form-control {
+        border-radius: 6px;
+        width: 100% !important;
+        min-height: 45px !important;
+    }
+
+    .custom-modal form select.form-control {
+        min-height: 50px !important;
+        border-radius: 6px !important;
+    }
+
+    .custom-modal form .form-control:focus,
+    .custom-modal form .form-control:active {
+        box-shadow: none !important;
+        outline: none !important;
+        border: 1px solid #6d6d6c;
+    }
+
+    .custom-modal.flat .dm--dbx {
+        display: none;
+    }
+
+    .custom-modal.flat .dm--body {
+        width: 100%;
+        /* height: 450px !important; */
+    }
+
+    .custom-modal.flat.stretched .dm--body {
+        height: 550px !important;
+    }
+
+    .custom-modal.flat .dm--body .dm--ct {
+        height: auto !important;
+    }
+
+    .modal-content {
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .modal-drop.select-box {
+        min-height: 50px;
+        border-radius: 6px;
+    }
+
+    .modal-drop.select-box .control {
+        min-height: 47px;
+        font-family: 'matterregular';
+    }
+
+    .modal-drop.select-box .menu .menu-list {
+        position: relative;
+        max-height: 130px;
+        font-family: 'matterregular';
+    }
+
+    .modal-drop.select-box .menu .menu-search .menu-search__input {
+        font-family: 'matterregular';
+    }
+
+
 }

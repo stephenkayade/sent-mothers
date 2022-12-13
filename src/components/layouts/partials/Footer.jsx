@@ -33,18 +33,9 @@ const Footer = () => {
 
                         <ul className="footer-nav-2 d-md-flex d-none">
                             <li className="footer-item ml-0">
-                                Ut non.
+                                sentmothersgph@gmail.com.
                             </li>
-                            <li className="footer-item">
-                                Leo est.
-                            </li>
-                            <li className="footer-item">
-                                Magna.
-                            </li>
-
-                            <li className="footer-item">
-                                Id in.
-                            </li>
+                            
                         </ul>
 
                         <div className="d-flex">
