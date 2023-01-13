@@ -52,11 +52,11 @@
 
     } */
 
-    
+
     .social_media_card {
         display: flex;
         columns: 100px;
-        column-gap:10px;
+        column-gap: 10px;
         margin: auto;
         /* padding: 2rem; */
     }
@@ -149,6 +149,96 @@
         border: none !important;
         padding: 0 !important;
     }
+
+    .festival {
+        height: 60vh;
+        padding: 3rem 2rem;
+    }
+
+    .section h3 {
+        font-size: 1.2rem;
+    }
+
+    main .festival__header {
+        font-size: 3.2rem;
+        bottom: -60px;
+        color: #A1398E !important;
+        opacity: 0.2;
+    }
+
+    .fest-img {
+        height: 100px !important;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        margin: auto;
+    }
+
+    .testimonies {
+        width: 100%;
+    }
+
+    .conf-slider span {
+        transform: rotateY(calc(var(--i)*45deg)) translateZ(150px);
+    }
+
+    section.section .speakers,
+    section.section .conference,
+    section.section .testifiers,
+    section.section .info_Section,
+    section.section .contribute {
+        margin-top: 2rem;
+    }
+
+    .conf-slider {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 120px;
+        height: 80px;
+    }
+
+    .section h3 .underline {
+        position: relative;
+        top: 0px;
+        height: 10px;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .contribution__cards .img-wrapper {
+        /* height: 100%; */
+    }
+
+    .donor {
+        font-size: 20px !important;
+    }
+
+    .header__desc {
+        font-size: 17px !important;
+    }
+
+    .info__text {
+        font-size: 22px !important;
+    }
+
+    .nav-event-hover {
+        position: absolute;
+        left: 30px;
+        bottom: -65px;
+        width: 180px;
+        padding: .4rem .5rem;
+    }
+
+    .nav-event-hover li {
+        padding: .2rem .8rem !important;
+    }
+    .sponsor-btn {
+        padding: .4rem 1rem !important;
+    }
+
+   
+
 }
 
 @media (min-width: 576px) {

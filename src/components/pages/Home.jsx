@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Button from '../layouts/partials/Button'
 import Navbar from '../layouts/partials/Navbar'
-import Slider from "react-slick";
-import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
-import { AiOutlineLike } from 'react-icons/ai'
-import { MdOutlineModeComment, MdOutlineShare } from 'react-icons/md'
+// import Slider from "react-slick";
+// import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
+// import { AiOutlineLike } from 'react-icons/ai'
+// import { MdOutlineModeComment, MdOutlineShare } from 'react-icons/md'
 import Footer from '../layouts/partials/Footer';
 import Carousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -15,29 +14,11 @@ import WelcomeModal from './WelcomeModal';
 
 
 const Home = () => {
-    const [config, setConfig] = useState({
-        display: true
-    })
+   
 
-    const [active, setActive] = useState(true)
+    // const [active, setActive] = useState(true)
     const [show, setShow] = useState(false)
 
-    const settings = {
-        // dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    };
-
-    const Next = (e) => {
-        if (e) { e.preventDefault() }
-        this.slider.slickNext();
-    }
-    const Previous = (e) => {
-        if (e) { e.preventDefault() }
-        this.slider.slickPrev();
-    }
 
     const options = {
         margin: 30,
@@ -215,7 +196,7 @@ const Home = () => {
                         <div className="col-12 col-md-4" style={{ position: 'relative' }}>
                             <h2 className='fs-48 font-600 text-white header-text mb-md-4 mb-3'>Here Are Some Of Our Upcoming Events.</h2>
                             <p className='fs-14 font-400 mb-md-5 mb-3' style={{ color: '#f2f2f2' }}>Come Join virtous mothers in this great revival</p>
-                            <a href='https://view.flodesk.com/pages/6385b34fe23bcf78aedfe502' target="_blank" className={` py-3 px-4 bg-white text-purple fs-18 my-md-0 my-3 text-white d-inline-block button-sm fw-bold`}>Register Now</a>
+                            <a href='https://view.flodesk.com/pages/6385b34fe23bcf78aedfe502' rel='noreferrer' target="_blank" className={` py-3 px-4 bg-white text-purple fs-18 my-md-0 my-3 text-white d-inline-block button-sm fw-bold`}>Register Now</a>
                             <img src="../../../images/icons/img@abs-2.svg" className='d-md-block d-none' alt="" height={'230px'} width={'550px'} style={{ position: 'absolute', bottom: '-150px', left: '-200px', zIndex: -0.5 }} />
 
                         </div>
@@ -230,20 +211,7 @@ const Home = () => {
                                         <CarouselCard />
                                         <CarouselCard />
                                         <CarouselCard />
-
-
-
-
-                                        {/* <div className='bg-white slider-card card rounded-0' >
-                                            <img src="../../../images/img@main-2.png" alt="" className="img-fluid" />
-                                            <div className="card-body">
-                                                <h3 className='fs-18'>SMGPH</h3>
-                                                <p className='mb-3 fs-15'>Redemption Camp</p>
-                                                <p className='fs-13'>Non, vel, risus lacus eu lorem dolor. Faucibus nibh eu dignissim velit tristique ut non neque ut. In facilisis sit.</p>
-
-                                            </div>
-                                        </div> */}
-
+                                        
                                     </Carousel>
                                 </div>
                             </div>
@@ -420,7 +388,7 @@ const Home = () => {
                             <h3 className="fs-50 font-500 text-white header-text text-center pt-md-0 pt-5">Join 1000+ moms</h3>
                             <p className='text-light text-center py-md-3 py-4 px-0' style={{ maxWidth: 600, width: '100%' }}>Join now to get timely information.</p>
                             <div>
-                                <a href='https://view.flodesk.com/pages/629c8552b7b14338733e5857' target='_blank' className={`  px-md-5 px-2 w-100 py-3 bg-white text-purple font-500 text-center fs-20 my-md-0 my-3 text-white button-sm`}>Join Now</a>
+                                <a href='https://view.flodesk.com/pages/629c8552b7b14338733e5857' rel='noreferrer' target='_blank' className={`  px-md-5 px-2 w-100 py-3 bg-white text-purple font-500 text-center fs-20 my-md-0 my-3 text-white button-sm`}>Join Now</a>
                             </div>
                         </div>
                     </div>

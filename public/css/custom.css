@@ -15,202 +15,206 @@ body {
     border: 1px solid #A1398E;
 }
 
+.light-text {
+    color: #8B8B9B;
+}
+
 /* font-sizes */
 
 .fs-8 {
-    font-size: 8px
+    font-size: 8px !important;
 }
 
 .fs-9 {
-    font-size: 9px
+    font-size: 9px !important;
 }
 
 .fs-10 {
-    font-size: 10px
+    font-size: 10px !important
 }
 
 .fs-11 {
-    font-size: 11px
+    font-size: 11px !important
 }
 
 .fs-12 {
-    font-size: 12px
+    font-size: 12px !important
 }
 
 .fs-13 {
-    font-size: 13px
+    font-size: 13px !important
 }
 
 .fs-14 {
-    font-size: 14px
+    font-size: 14px !important
 }
 
 .fs-15 {
-    font-size: 15px
+    font-size: 15px !important
 }
 
 .fs-16 {
-    font-size: 16px
+    font-size: 16px !important
 }
 
 .fs-17 {
-    font-size: 17px
+    font-size: 17px !important
 }
 
 .fs-18 {
-    font-size: 18px
+    font-size: 18px !important
 }
 
 .fs-19 {
-    font-size: 19px
+    font-size: 19px !important
 }
 
 .fs-20 {
-    font-size: 20px
+    font-size: 20px !important
 }
 
 .fs-21 {
-    font-size: 21px
+    font-size: 21px !important
 }
 
 .fs-22 {
-    font-size: 22px
+    font-size: 22px !important
 }
 
 .fs-23 {
-    font-size: 23px
+    font-size: 23px !important
 }
 
 .fs-24 {
-    font-size: 24px
+    font-size: 24px !important
 }
 
 .fs-25 {
-    font-size: 25px
+    font-size: 25px !important
 }
 
 .fs-26 {
-    font-size: 26px
+    font-size: 26px !important
 }
 
 .fs-27 {
-    font-size: 27px
+    font-size: 27px !important
 }
 
 .fs-28 {
-    font-size: 28px
+    font-size: 28px !important
 }
 
 .fs-29 {
-    font-size: 29px
+    font-size: 29px !important
 }
 
 .fs-30 {
-    font-size: 30px
+    font-size: 30px !important
 }
 
 .fs-31 {
-    font-size: 31px
+    font-size: 31px !important
 }
 
 .fs-32 {
-    font-size: 32px
+    font-size: 32px !important
 }
 
 .fs-33 {
-    font-size: 33px
+    font-size: 33px !important
 }
 
 .fs-34 {
-    font-size: 34px
+    font-size: 34px !important
 }
 
 .fs-35 {
-    font-size: 35px
+    font-size: 35px !important
 }
 
 .fs-36 {
-    font-size: 36px
+    font-size: 36px !important
 }
 
 .fs-37 {
-    font-size: 37px
+    font-size: 37px !important
 }
 
 .fs-38 {
-    font-size: 38px
+    font-size: 38px !important
 }
 
 .fs-39 {
-    font-size: 39px
+    font-size: 39px !important
 }
 
 .fs-40 {
-    font-size: 40px
+    font-size: 40px !important
 }
 
 .fs-41 {
-    font-size: 41px
+    font-size: 41px !important
 }
 
 .fs-42 {
-    font-size: 42px !important
+    font-size: 42px !important;
 }
 
 .fs-43 {
-    font-size: 43px
+    font-size: 43px !important
 }
 
 .fs-44 {
-    font-size: 44px
+    font-size: 44px !important
 }
 
 .fs-45 {
-    font-size: 45px
+    font-size: 45px !important
 }
 
 .fs-46 {
-    font-size: 46px
+    font-size: 46px !important
 }
 
 .fs-47 {
-    font-size: 47px
+    font-size: 47px !important
 }
 
 .fs-48 {
-    font-size: 48px
+    font-size: 48px !important
 }
 
 .fs-49 {
-    font-size: 49px
+    font-size: 49px !important
 }
 
 .fs-50 {
-    font-size: 50px
+    font-size: 50px !important
 }
 
 .fs-51 {
-    font-size: 51px
+    font-size: 51px !important
 }
 
 .fs-52 {
-    font-size: 52px
+    font-size: 52px !important
 }
 
 .fs-53 {
-    font-size: 53px
+    font-size: 53px !important
 }
 
 .fs-54 {
-    font-size: 54px
+    font-size: 54px !important
 }
 
 .fs-55 {
-    font-size: 55px
+    font-size: 55px !important
 }
 
 .fs-56 {
-    font-size: 56px
+    font-size: 56px !important
 }
 
 /* font-weights */
@@ -256,7 +260,7 @@ body {
 }
 
 .onpurple {
-    color: purple;
+    color: #A1398E;
 }
 
 .pink-bg,
@@ -313,7 +317,7 @@ main.main {
 }
 
 main.main {
-    background: url('../images/img@main.png')no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/uridevmedia/image/upload/v1670432558/sentmothers/img_main_juwgx7.png')no-repeat center center/cover;
 
     display: flex;
     justify-content: center;
@@ -360,7 +364,7 @@ main.main .container a:hover {
 
 /* newsletter section */
 #news {
-    background: url('../images/img@newsletter.png')no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/uridevmedia/image/upload/v1670432503/sentmothers/img_newsletter_rcaeyn.png')no-repeat center center/cover;
     height: 100%;
 }
 
@@ -381,6 +385,26 @@ main.main .container a:hover {
     width: 100%;
 }
 
+.nav-event {
+    position: relative;
+}
+
+.nav-event-hover {
+    position: absolute;
+    left: -30px;
+    bottom: -80px;
+    width: max-content;
+    padding: .9rem 1.5rem;
+    list-style: none;
+    background-color: #a1398e;
+    color: #fff !important;
+}
+
+.nav-event-hover li a:hover{
+    
+    color: rgba(255, 255, 255, 0.727) !important;
+}
+
 ul.footer-nav-1,
 ul.footer-nav-2 {
     list-style: none;
@@ -393,6 +417,34 @@ ul.footer-nav-1 li {
 
 ul.footer-nav-2 li {
     margin-right: .7rem;
+}
+
+footer.footer {
+    background: url('../../../images/img@footer.png')no-repeat center center/cover;
+}
+
+footer.footer ul {
+    list-style: none;
+}
+
+footer.footer ul li {
+    margin-bottom: 1.5rem;
+}
+
+footer.footer ul li a {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-gallery img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer-socials a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -414,26 +466,32 @@ ul.footer-nav-2 li {
 
 .about__objective p {
     font-size: 0.95rem;
-    color:  #333;
+    color: #333;
     background-image: linear-gradient(25.4deg, rgb(248, 236, 246, 0.2)96%, rgb(237, 214, 233)0%);
     border-left: 5px solid #ECD7E8;
     text-align: left;
     padding: .8rem 1.5rem;
 }
 
-.about__vision, .about__motto {
+.about__vision,
+.about__motto {
     max-width: 400px;
     width: 100%;
 }
 
-.about__vision h2, .about__motto h2, .about__objective h2, .about__values h2 {
+.about__vision h2,
+.about__motto h2,
+.about__objective h2,
+.about__values h2 {
     color: #A1398E;
     font-weight: 600;
 }
 
-.about__vision p, .about__motto p, .about__values p {
+.about__vision p,
+.about__motto p,
+.about__values p {
     font-size: 0.95rem;
-    color:  #333;
+    color: #333;
     background-color: #f8ecf6;
     text-align: left;
     padding: 1rem 2rem;
@@ -597,23 +655,241 @@ ul.footer-nav-2 li {
 
 }
 
-#events .owl-carousel .owl-nav button.owl-prev, #events .owl-carousel .owl-nav button.owl-next {
+#events .owl-carousel .owl-nav button.owl-prev,
+#events .owl-carousel .owl-nav button.owl-next {
     background-color: #fff !important;
     color: #A1398E !important;
-    padding:.4rem 1rem !important;
+    padding: .4rem 1rem !important;
     font-size: 1.5rem !important;
 
 }
 
-#events .owl-carousel .owl-nav button.owl-prev:hover, #events .owl-carousel .owl-nav button.owl-next:hover{
+#events .owl-carousel .owl-nav button.owl-prev:hover,
+#events .owl-carousel .owl-nav button.owl-next:hover {
     background-color: #A1398E !important;
     color: #fff !important;
 
 }
 
-.custom-modal .video video{
+.custom-modal .video video {
     width: 100% !important;
 }
 
+/* FESTIVAL */
+
+#festival__fire {
+    background-color: #F9FAFB;
+}
+
+.festival {
+    background: linear-gradient(180deg, rgba(54, 19, 47, 0.4)0.51%, rgba(54, 19, 47, 0.3)100%), url('../images/img@festival-bg.png')no-repeat center center/cover;
+    height: 70vh;
+    color: rgb(54, 19, 47);
+    /* margin-top: 3rem; */
+    padding: 4rem;
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+.festival .festival__register {
+    background-color: #fff;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+.festival .festival__register p {
+    color: #8B8B9B;
+    max-width: 300px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.festival .festival__register a {
+    background-color: #A1398E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: .5rem .9rem;
+}
+
+.festival__header {
+    font-size: 13.125rem;
+    font-weight: 600;
+}
+
+main {
+    position: relative;
+}
+
+main .festival__header {
+    position: absolute;
+    z-index: 1;
+    /* color: #C07BB4; */
+    opacity: 0.1;
+    bottom: -190px;
+    left: 0px;
+}
+
+section.section .speakers,
+section.section .conference,
+section.section .testifiers,
+section.section .info_Section,
+section.section .contribute {
+    margin-top: 5rem;
+}
+
+.section h3 {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    font-size: 2.7rem;
+    z-index: 4;
+}
+
+.section h3 .underline {
+    position: absolute;
+    background-color: #d09cc67b;
+    height: 20px;
+    width: 100%;
+    top: 55px;
+    z-index: 3;
+
+}
+
+.fest-img {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guests,
+.info__cards {
+    background-color: #36132F;
+    line-height: 1.5rem;
+}
+
+.guest__name {
+    max-width: 170px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+}
+
+.conf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conf-slider {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    transform-style: preserve-3d;
+    animation: rotate 100s linear infinite;
+    margin: 8rem 0;
+}
+
+.conf-slider {
+    
+    width: 300px;
+    height: 150px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotate(0deg)
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.conf-slider span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(480px);
+}
+
+.conf-slider span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.conf-slider span:hover img {
+    transform: translateY(-50px) scale(0.9);
+}
+
+.testifier {
+    position: relative;
+    background: url('../images/img@conf-1.png')no-repeat center center/cover;
+    height: 250px;
+    width: 200px;
+
+}
 
 
+.testimony {
+    background-color: #fff;
+    border-top: 5px solid #a1398e;
+    position: absolute;
+    border-radius: 10px;
+    width: 250px;
+    padding: 1.5rem;
+    text-align: center;
+    top: 35px;
+    left: 100px;
+}
+
+.testimonies {
+    width: 300px;
+}
+
+.testify {
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.info__underline {
+    height: 4px;
+    background-color: #fff;
+    width: 200px;
+}
+
+.contribution__cards img {
+    height: 300px;
+}
+
+.contribution__cards {
+    border-radius: 40px;
+    border: 1px solid #000;
+
+}
+
+.contribution__cards .img-wrapper {
+    background: url('../images/img@conf-1.png')no-repeat center center/cover;
+    height: 180px;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.donor {
+    color: #C07BB4;
+}

@@ -1,51 +1,120 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { BsFacebook } from 'react-icons/bs'
+import { AiFillInstagram } from 'react-icons/ai'
+import { BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
     return (
         <>
 
-            <footer class="footer bg-white px-2 px-md-5">
+            <footer className="footer bg-white px-2 px-md-5 pt-md-5 pt-3">
                 <div className="container">
+                    <div className="row border-bottom border-white">
+                        <div className="col-12 col-md-4 mb-4">
+                            <img src="../../../images/logo-white.svg" alt="" />
+                            <div className='footer-socials mt-md-5 mt-4'>
 
-                    <div className="d-flex mb-md-0 mb-4 flex-md-row flex-column justify-content-md-between justify-content-sm-center align-items-center">
+                                <a href='/' target='_blank' rel='noreferrer' className='mx-2'><BsFacebook /></a>
+                                <a href='/' target='_blank' rel='noreferrer' className='mx-2'><AiFillInstagram /></a>
+                                <a href='/' target='_blank' rel='noreferrer' className='mx-2'><BsLinkedin /></a>
+                            </div>
 
-                        <Link className="footer-brand d-inline" to="/"><img src="../../images/logo.png" alt="" height={60} width={80} /></Link>
+                        </div>
+                        <div className="col-6 col-md-2">
+                            <ul>
+                                <li><a href="/" className='fs-18 fw-bold'>Website Links</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/">About </a></li>
+                                <li><a href="/">Get in touch </a></li>
+                                <li><a href="/">FAQS</a></li>
+                            </ul>
+                        </div>
 
-                        <ul className="footer-nav-1">
-                            <li className="footer-item">
-                                <Link className="nav-link" aria-current="page" to="/">Home</Link>
-                            </li>
-                            <li className="footer-item">
-                                <Link className="nav-link" to="#"> About</Link>
-                            </li>
-                            <li className="footer-item">
-                                <Link className="nav-link" to="#">Partnerships</Link>
-                            </li>
+                        <div className="col-6 col-md-2">
+                            <ul>
+                                <li><a href="/" className='fs-18 fw-bold'>Services</a></li>
+                                <li><a href="/">Architecture</a></li>
+                                <li><a href="/">Buildings </a></li>
+                                <li><a href="/">3d maps </a></li>
+                                <li><a href="/">Structure design</a></li>
+                            </ul>
+                        </div>
+                        <div className="col-6 col-md-2">
+                            <ul>
+                                <li><a href="/" className='fs-18 fw-bold'>Developers</a></li>
+                                <li><a href="/">Features</a></li>
+                                <li><a href="/">Testimonials </a></li>
+                                <li><a href="/">Referrers</a></li>
+                            </ul>
+                        </div>
+                        <div className="col-6 col-md-2">
+                            <ul>
+                                <li>
+                                    <a href="/" className='fs-18 fw-bold'>Instagram Feed</a>
+                                    <div className="row mt-4">
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
 
-                            <li className="footer-item">
-                                <Link className="nav-link" to="/">Contact Us</Link>
-                            </li>
-                        </ul>
-                    </div>
+                                                <img src="../../../images/img@donate.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
 
-                    <div className="d-flex mb-md-0 mb-4 justify-content-md-between justify-content-center w-100">
+                                                <img src="../../../images/img@volunteer.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
 
-                        <ul className="footer-nav-2 d-md-flex d-none">
-                            <li className="footer-item ml-0">
-                                sentmothersgph@gmail.com.
-                            </li>
-                            
-                        </ul>
+                                                <img src="../../../images/img@conf-1.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
 
-                        <div className="d-flex">
+                                                <img src="../../../images/img@fire-partner.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
 
-                            <p className=' ml-auto text-md-start text-center mb-0'>Copyright Sent Mothers Global Prayer Hub. &copy;2022</p>
+                                                <img src="../../../images/img@conf-1.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
+
+                                                <img src="../../../images/img@volunteer.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
+
+                                                <img src="../../../images/img@volunteer.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
+
+                                                <img src="../../../images/img@donate.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="col-4 col-md-4">
+                                            <div className="mb-3 footer-gallery">
+
+                                                <img src="../../../images/img@fire-partner.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
                         </div>
 
                     </div>
+                    <p className="text-center text-white fs-13 mb-0 py-3">Non Copyrighted &copy; 2022 Design and upload by SMGPH</p>
                 </div>
-
             </footer>
 
         </>
